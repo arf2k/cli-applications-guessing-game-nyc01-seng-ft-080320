@@ -19,6 +19,6 @@ def compare_numbers(random, user)
   if generate_number(random) == get_input(user)
     puts "You guessed the correct number!"
   end
-  
-  
+end 
+end 
 end 
