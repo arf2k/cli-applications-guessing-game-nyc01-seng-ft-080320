@@ -13,10 +13,10 @@ def get_input(input)
 end
 
 def compare_numbers(random, user)
-  generate_number(random) = random
-  get_input(input) = user
-end   
-  if random == user
+  generate_number(random) 
+  get_input(input)
+  
+  if generate_number(random) == get_input(user)
     puts "You guessed the correct number!"
   end
   
