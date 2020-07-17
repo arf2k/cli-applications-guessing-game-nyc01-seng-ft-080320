@@ -9,7 +9,7 @@ def prompt_user
 end
 
 def get_input(input)
-  gets.chomp
+  input = gets.chomp
 end
 
 def compare_numbers(random, user)
@@ -17,9 +17,9 @@ def compare_numbers(random, user)
   user = get_input(input) 
   if random == user 
     puts "You guessed the correct number!"
-  elsif random != user 
-    puts "Sorry! The computer guessed #{random}."
-  elsif user == "exit"
-    puts "Goodbye!"
-    end
+  # elsif random != user 
+  #   puts "Sorry! The computer guessed #{random}."
+  # elsif user == "exit"
+  #   puts "Goodbye!"
+  #   end
 end 
