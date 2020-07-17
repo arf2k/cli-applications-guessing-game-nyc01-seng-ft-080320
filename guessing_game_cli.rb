@@ -13,11 +13,11 @@ def get_input(input)
 end
 
 def compare_numbers(random, user)
-  generate_number(random) = random 
-  user = get_input(input) 
-  if random == user 
-    puts "You guessed the correct number!"
-  # elsif random != user 
+  # generate_number(random) = random 
+  # user = get_input(input) 
+  # if random == user 
+  #   puts "You guessed the correct number!"
+  # # elsif random != user 
   #   puts "Sorry! The computer guessed #{random}."
   # elsif user == "exit"
   #   puts "Goodbye!"
