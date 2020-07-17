@@ -20,5 +20,5 @@ def compare_numbers(random, user)
     puts "You guessed the correct number!"
   end
 end 
-end 
+
 end 
