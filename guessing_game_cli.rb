@@ -7,3 +7,5 @@ end
 def prompt_user
   gets.chomp!
 end
+
+end 
