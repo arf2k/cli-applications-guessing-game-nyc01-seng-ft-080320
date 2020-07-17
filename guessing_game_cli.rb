@@ -6,7 +6,13 @@ end
 
 def prompt_user
   puts "Please enter a number between 1 and 6"
-  gets.chomp!
 end
+
+def get_input
+  gets.chomp
+end
+
+def compare_numbers 
+
 
 end 
