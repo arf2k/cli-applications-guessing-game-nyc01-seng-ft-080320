@@ -21,7 +21,9 @@ def compare_numbers(random, user)
     puts "Sorry! The computer guessed #{random}."
   elsif user == "exit"
     puts "Goodbye!"
+    end
   end
 end 
+
   
 end 
