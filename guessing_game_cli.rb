@@ -22,8 +22,7 @@ def compare_numbers(random, user)
   elsif user == "exit"
     puts "Goodbye!"
     end
-  end
-end 
+
 
   
 end 
