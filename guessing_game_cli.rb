@@ -12,14 +12,13 @@ def get_input(input)
   input = gets.chomp
 end
 
-# def compare_numbers(random, user)
-  # generate_number(random) = random 
-  # user = get_input(input) 
-  # if random == user 
-  #   puts "You guessed the correct number!"
-  # # elsif random != user 
-  #   puts "Sorry! The computer guessed #{random}."
-  # elsif user == "exit"
-  #   puts "Goodbye!"
-  #   end
+def compare_numbers(random, user)
+  generate_number(random) = random
+  get_input(input) = user
+  
+  if random == user
+    puts "You guessed the correct number!"
+  end
+  
+  
 end 
